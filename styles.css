@@ -1,0 +1,102 @@
+/* Reset & base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5dc;
+    color: #4b2e14;
+  }
+  h1, h2 {
+    font-family: 'Noto Serif', serif;
+  }
+  header {
+    background: #8b4513;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 1rem;
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .subtitle {
+    margin-top: -10px;
+    font-size: 1rem;
+  }
+  .intro {
+    text-align: center;
+    padding: 2rem;
+  }
+  .intro input {
+    padding: 0.5rem;
+    width: 50%;
+    margin-top: 1rem;
+  }
+  .featured-grid, .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .proverb-card {
+    background: #fff3e0;
+    border: 2px solid #daa520;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  .proverb-card:hover {
+    transform: scale(1.03);
+  }
+  .hover-reveal .meaning {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(139, 69, 19, 0.8);
+    color: white;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .hover-reveal:hover .meaning {
+    display: block;
+  }
+  .detail {
+    padding: 2rem;
+  }
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #8b4513;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  .form-section {
+    padding: 2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  textarea, input {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  button {
+    background: #daa520;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #b8860b;
+  }
+  a { text-decoration: none ;}
